@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Pathfinder AI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Adaptive learning for neurodivergent students in Nigeria
 
-## Available Scripts
+## What is Pathfinder
 
-In the project directory, you can run:
+Pathfinder is an AI powered adaptive learning platform built specifically for secondary school and university students in Nigeria who have ADHD, dyslexia, or slow processing speed. Instead of delivering lessons one way and expecting every student to keep up, Pathfinder explains every concept four different ways and lets each student learn at their own pace with no timers and no pressure.
 
-### `npm start`
+## The Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+One in six students in Nigeria is neurodivergent. These students sit in classrooms built for one type of brain. When they struggle, they are labelled lazy or unintelligent. No affordable adaptive learning tool exists in Nigeria designed for how their brain actually works.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## The Solution
 
-### `npm test`
+Pathfinder gives every student a patient, personalised learning experience. Every lesson is explained through four levels. First a plain simple explanation. Then a real world Nigerian analogy. Then a dynamic visual diagram. Then a reflective question. Students move through levels at their own pace by clicking Explain Differently.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Voice support reads every lesson aloud for dyslexic learners. Teachers upload PDF notes and AI converts them into adaptive micro lessons for every student in their class within seconds.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Four level adaptive lesson system tailored for neurodivergent learners
+- Full voice support on every lesson, flashcard, and quiz question
+- Teacher dashboard with class management and PDF upload
+- AI powered lesson generation from any PDF or pasted text
+- Student progress tracking with visual journey map
+- Quiz system with AI generated questions
+- Flashcard system with spaced repetition
+- Skills Hub for university students covering time management, focus, and executive function
+- Real time student progress visible to teachers
+- Works on low bandwidth connections including 2G
+- Free for all students
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Frontend: React, Tailwind CSS
+- Backend: Supabase (authentication, database, edge functions)
+- AI: OpenRouter (free tier models)
+- Voice: Web Speech API
+- Deployment: Vercel
 
-### `npm run eject`
+## Live Demo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://pathfinder-chi-seven.vercel.app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone https://github.com/Mikomijie/path_finder.git
+cd path_finder/frontend
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create a .env file in the frontend folder with the following:
+REACT_APP_SUPABASE_URL=your_supabase_url
+REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+REACT_APP_OPENROUTER_KEY=your_openrouter_key
 
-## Learn More
+## Target Users
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Secondary school students in Nigeria with ADHD, dyslexia, or slow processing speed
+- University students with ADHD who need executive function support
+- Teachers who want to create adaptive lessons from their existing materials
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Team
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Built by Team Pathfinder for neurodivergent students across Nigeria.
