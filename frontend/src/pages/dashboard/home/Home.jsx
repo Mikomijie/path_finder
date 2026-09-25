@@ -124,7 +124,7 @@ export default function Home({ profile, onNavigate }) {
   const navigate = useNavigate();
   const [greeting, setGreeting] = useState('');
   const [tip, setTip] = useState('');
-  const [showTip, setShowTip] = useState(true);
+  const [showTip, setShowTip] = useState(false);
   const [stats, setStats] = useState({ completed: 0, avgScore: 0, streak: 0 });
   const [nextIncompleteTopic, setNextIncompleteTopic] = useState(null);
   const [lastStudiedTopic, setLastStudiedTopic] = useState(null);
