@@ -378,8 +378,8 @@ export default function Subjects({ profile, onNavigate }) {
 
       <div className="f1">
         <h1 className="text-[24px] font-extrabold text-[#0F172A]">
-          {isUniversity ? 'My Notes' : 'My Subjects'}
-        </h1>
+  {isUniversity ? 'My Learning Hub' : 'My Subjects'}
+</h1>
         <p className="text-[14px] text-[#475467] mt-1">
           {isUniversity
             ? 'Search any topic, upload notes, or study your saved lessons.'
